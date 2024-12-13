@@ -8,8 +8,8 @@ st.write("Author: Bhawani Shankar")
  
  
 # Loaded the model
-heat_disease_model = pickle.load(open("model/heart_disease_model1.sav", "rb"))
-diabetes_model = pickle.load(open("model\diabetes_model.sav", "rb"))
+heat_disease_model = pickle.load(open("heart_disease_model1.sav", "rb"))
+diabetes_model = pickle.load(open("diabetes_model.sav", "rb"))
 with st.sidebar:
     selected = option_menu("Choose the Disease", ["Heart Disease Prediction", "Diabetes Prediction"])
  
